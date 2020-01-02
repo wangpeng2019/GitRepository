@@ -1,6 +1,6 @@
 #greeter.py
-def greet_user():
+def greet_user(username):
 	#显示打印信息
-	print("hello")
+	print("hello,"+username.title()+"!")
 	
-greet_user()
+greet_user('wangpeng')

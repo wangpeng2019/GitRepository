@@ -51,8 +51,19 @@ def build_person(first_name,last_name,age=''):
 	
 mus=build_person('jimi','hend',age= 27)
 print(mus)
-'''
 
+
+#传递列表
+#greet_users.py
+def greet_users(names):
+	#向列表中每位用户发出简单问候
+	for name in names:
+		msg="Hello," + name.title() + "!"
+		print(msg)
+		
+usernames=['lixiaoqin','hewangpeng','lover']
+greet_users(usernames)
+'''
 
 
 
